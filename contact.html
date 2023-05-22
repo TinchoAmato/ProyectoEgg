@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://kit.fontawesome.com/68b1d4b93b.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <a href="#" class="brand">Mi página web</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre mi</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contactos</a></li>
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+    
+    <main>
+        <div class="container">
+            <h1>Contacto</h1>
+            <p class="center">¡Contáctanos para cualquier consulta o solicitud de información!</p>
+            <div class="form-container">
+                <form id="contact-form">
+                  <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Enviar</button>
+                  </div>
+                </form>
+              </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-text">
+            <h2>¡Esto es todo!</h2>
+            <p>Espero te haya gustado y puedas comentarme desde la sección de contactos todo lo que creas que debo saber sobre tu experiencia (siempre con respeto) ¡Muchas gracias!</p>
+        </div>
+        <div class="redes-container">
+            <ul>
+                <li><a href="https://www.instagram.com/tincho.amato?igshid=ZGUzM3NWJiOQ==" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/mart%C3%ADn-amato-235966221/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/TinchoAmato?tab=repositories" target="_blank" class="github"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
