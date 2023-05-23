@@ -53,7 +53,7 @@ body{
     background-size: 100vw;
     background-repeat: repeat-y;
     color: black;
-    margin-bottom: 100px;
+    margin-bottom: 12vh;
 }
 
 h2{
@@ -264,17 +264,28 @@ footer{
 }
 
 .img-ejemplo{
-    width: 100%;
+    width: 89%;
     align-self: center;
     border: 2px solid var(--gris);
     margin-bottom: 5vh;
+    transition: all .3s;
 }
 
 .img-ejemplo2{
-    width: 40%;
+    width: 39.5%;
     align-self: center;
     border: 2px solid var(--gris);
-    margin-bottom: 5vh;
+}
+
+.img-ejemplo:hover{
+    margin-bottom: 4.6vh;
+    width: 90%;
+    transition: all .3s;
+}
+
+.img-ejemplo2:hover{
+    width: 40%;
+    transition: all .3s;
 }
 
 .primero{
